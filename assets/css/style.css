@@ -1,0 +1,52 @@
+:root {
+    --bs-link-color: #198754 !important;
+    --bs-link-hover-color: #146c43 !important;
+  }
+  
+
+.navbar-brand img {
+    width: 50px;
+}
+
+/* Tamanho do meu carousel*/
+
+.carousel-item {
+    height: 500px;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 31));
+    position: absolute;
+}
+
+.card-menu img {
+    height: 300px;
+    object-fit: cover;   
+    object-position: center;
+}
+
+.centra-about {
+    justify-content: center;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
